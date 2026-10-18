@@ -15,7 +15,7 @@ public class testBank {
 
     @Test
     public void InsufficentCase(){
-        assertThrows(Invalid.class,()->bank.Debit(122343523.00));
+        assertThrows(Invalid.class,()->bank.Debit(1243523.00));
     }
     @Test
     public void successdebit(){
