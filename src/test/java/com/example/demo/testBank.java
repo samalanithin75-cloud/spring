@@ -27,7 +27,9 @@ public class testBank {
     }
     @Test
     public void Zerodebit(){
-        assertDoesNotThrow(()->bank.Debit(0.00));
+
+        System.out.println("hello");
+    assertDoesNotThrow(()->bank.Debit(0.00));
     }
 
 
